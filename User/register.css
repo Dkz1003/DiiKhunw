@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #265073;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box .details {
+    color: #265073;
+}
+
+.input-box input[type="text"],
+.input-box input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-box input[type="text"]:focus,
+.input-box input[type="password"]:focus {
+    border-color: #265073;
+}
+
+.button {
+    text-align: center;
+}
+
+.button input[type="submit"] {
+    background-color: #265073;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button input[type="submit"]:hover {
+    background-color: #1b3c58;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #265073;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
